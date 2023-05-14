@@ -1,0 +1,36 @@
+# Links and paths to raw data
+pascal3d_raw_path: data/PASCAL3D+_release1.1
+pascal3d_raw_url: ftp://cs.stanford.edu/cs/cvgl/PASCAL3D+_release1.1.zip
+pascal3d_occ_raw_path: data/OccludedPASCAL3D
+pascal3d_occ_script_url: https://raw.githubusercontent.com/Angtian/OccludedPASCAL3D/master/download_FG.sh
+ood_cv_pose_data_path: data/ood_cv
+ood_cv_pose_url: https://drive.google.com/file/d/1djm2ugmk98__9jgL8Sqb_QUIIpC7e1ir/view
+
+# Path to preprocessed data
+pascal3d_data_path: data/PASCAL3D
+oodcv_data_path: data/OOD_CV
+
+occ_levels:
+    train: [0]
+    val: [0, 1, 2, 3]
+
+image_sizes:
+    aeroplane: [640, 800]
+    bicycle: [640, 800]
+    boat: [640, 800]
+    bottle: [640, 800]
+    bus: [640, 800]
+    chair: [640, 800]
+    car: [640, 800]
+    diningtable: [640, 800]
+    motorbike: [640, 800]
+    sofa: [640, 800]
+    train: [640, 800]
+    tvmonitor: [640, 800]
+
+nuisances:
+    - context
+    - pose
+    - shape
+    - texture
+    - weather
