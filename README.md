@@ -10,7 +10,7 @@ Enhancing the robustness of vision algorithms in real-world scenarios is challen
 conda create -n oodcv python=3.9
 conda activate oodcv
 conda install numpy scipy pillow
-pip install wget gdown pyyaml BboxTools opencv-python
+pip install wget gdown pyyaml BboxTools opencv-python scikit-image
 ```
 
 ### Preprocess PASCAL3D+ and OOD-CV Data
