@@ -21,6 +21,13 @@ python prepare_ood_cv.py \
     --workers 6
 ```
 
+### Train a Baseline Model: ResNet50
+
+```sh
+python train_baseline.py \
+    --config resnet.yaml
+```
+
 ### Citing OOD-CV
 
 If you find our work useful, please consider giving a star and citation:
